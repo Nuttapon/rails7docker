@@ -36,3 +36,5 @@
 
 # Ignore production key for decrypting credentials and more.
 /config/credentials/production.key
+
+.env
