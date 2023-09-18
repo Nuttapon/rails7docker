@@ -55,6 +55,6 @@ jobs:
       #   run: bin/brakeman -q -w2
         # Robocop is a Ruby linter
       - name: Lint Ruby files
-        run: bin/rubocop --parallel
+        run: bundle exec rubocop --parallel
 
 
